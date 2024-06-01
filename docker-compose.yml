@@ -5,6 +5,7 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=
       - MYSQL_DATABASE=timesheet_db
+      - MYSQL_ALLOW_EMPTY_PASSWORD=1
     ports:
       - 3306:3306
     volumes:
